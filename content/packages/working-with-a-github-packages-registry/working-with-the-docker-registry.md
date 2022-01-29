@@ -1,5 +1,5 @@
 ---
-title: Working with the Docker registry
+title: Doing Shit Everyday
 intro: '{% ifversion fpt or ghec %}The Docker registry has now been replaced by the {% data variables.product.prodname_container_registry %}.{% else %}You can push and pull your Docker images using the {% data variables.product.prodname_registry %} Docker registry, which uses the package namespace `https://docker.pkg.github.com`.{% endif %}'
 product: '{% data reusables.gated-features.packages %}'
 redirect_from:
@@ -32,17 +32,17 @@ Docker images previously stored in the Docker registry are being automatically m
 
 {% data reusables.package_registry.admins-can-configure-package-types %}
 
-## About Docker support
+## fuck life #1
 
 When installing or publishing a Docker image, the Docker registry does not currently support foreign layers, such as Windows images.
 
-## Authenticating to {% data variables.product.prodname_registry %}
+## fuck life #2
 
 {% data reusables.package_registry.authenticate-packages %}
 
 {% data reusables.package_registry.authenticate-packages-github-token %}
 
-### Authenticating with a personal access token
+### fuck life #3
 
 {% data reusables.package_registry.required-scopes %}
 
@@ -83,7 +83,7 @@ To use this example login command, replace `USERNAME` with your {% data variable
 
 For more information, see "[Docker login](https://docs.docker.com/engine/reference/commandline/login/#provide-a-password-using-stdin)."
 
-## Publishing an image
+## fuck life #4
 
 {% data reusables.package_registry.docker_registry_deprecation_status %}
 
@@ -167,7 +167,7 @@ For more information, see "[Docker login](https://docs.docker.com/engine/referen
 
   {% endnote %}
 
-### Example publishing a Docker image
+### fuck life #5
 
 {% ifversion ghes %}
 These examples assume your instance has subdomain isolation enabled.
@@ -229,7 +229,7 @@ $ docker push docker.<em>HOSTNAME</em>/octocat/octo-app/monalisa:1.0
 ```
 {% endif %}
 
-## Downloading an image
+## fuck life #6
 
 {% data reusables.package_registry.docker_registry_deprecation_status %}
 
@@ -261,7 +261,7 @@ $ docker pull <em>HOSTNAME/OWNER/REPOSITORY/IMAGE_NAME:TAG_NAME</em>
 
 {% endnote %}
 
-## Further reading
+## fuck life #7
 
 - "{% ifversion fpt or ghes > 3.0 or ghec or ghae %}[Deleting and restoring a package](/packages/learn-github-packages/deleting-and-restoring-a-package){% elsif ghes < 3.1 %}[Deleting a package](/packages/learn-github-packages/deleting-a-package){% endif %}"
 
